@@ -35,20 +35,31 @@
 
 
 # Integer and string Data Type
-number1 = input("Please enter a first number :")
-number2 = input("Please enter a second number :")
+# number1 = input("Please enter a first number :")
+# number2 = input("Please enter a second number :")
 
-sum = int(number1) + int(number2)
+# sum = int(number1) + int(number2)
 
-print("The sum of "+ number1 + " and " + number2 + " = " + str(sum))
-print(sum)
+# print("The sum of "+ number1 + " and " + number2 + " = " + str(sum))
+# print(sum)
 
 
 # Float and string Data Type
-number1 = input("Please enter a first score :")
-number2 = input("Please enter a second score :")
+# number1 = input("Please enter a first score :")
+# number2 = input("Please enter a second score :")
 
-sum = float(number1) + float(number2)
+# sum = float(number1) + float(number2)
 
-print("The sum of "+ number1 + " and " + number2 + " = " + str(sum))
-print(sum)
+# print("The sum of "+ number1 + " and " + number2 + " = " + str(sum))
+# print(sum)
+
+
+# Multiple Assignments
+x = y = 34
+z = 41
+math101 = eng101 =  54.9
+chem101 = 61.9
+
+name, score, age = "ChisoftMedia", ((float(math101)+float(eng101)+float(chem101))/3), ((int(x)+int(y)+int(z))/3)
+
+print(name + "is Aged = " + str(age) + " and scored = " + str(score))
