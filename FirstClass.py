@@ -25,3 +25,10 @@ fullname = title + \
            lastname + \
            othername
 print(fullname)
+
+myName = input("Please enter your name? ")
+if not myName:
+    myName = input("Please you need to enter your name? ")
+
+if myName:
+    print("Your name is: " + myName)
