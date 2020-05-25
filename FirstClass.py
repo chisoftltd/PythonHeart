@@ -104,16 +104,39 @@
 
 # Python Tuples
 
-tuple1 = ('abcd', 0.58, 25, '001, 208.7')
-tuple2 = (1010, 'ChisoftMedia')
-print(tuple1)
-print(tuple2)
-print(tuple1[0])
-print(tuple2[0])
-print(tuple1[1:4])
-print(tuple2[1:3])
-print(tuple1[2:])
-print(tuple2[1:])
-print(tuple1 * 2)
-print(tuple2 * 3)
-print(tuple1 + tuple2)
+# tuple1 = ('abcd', 0.58, 25, '001, 208.7')
+# tuple2 = (1010, 'ChisoftMedia')
+# print(tuple1)
+# print(tuple2)
+# print(tuple1[0])
+# print(tuple2[0])
+# print(tuple1[1:4])
+# print(tuple2[1:3])
+# print(tuple1[2:])
+# print(tuple2[1:])
+# print(tuple1 * 2)
+# print(tuple2 * 3)
+# print(tuple1 + tuple2)
+
+# Python Dictionary
+
+months = {
+    1: "January",
+    2: "February",
+    3: "March",
+    4: "April",
+    5: "May",
+    6: "June",
+    7: "July",
+    8: "August",
+    9: "September",
+    10: "October",
+    11: "November",
+    12: "December"
+}
+
+print(months[1])
+print(months)
+print(months.keys())
+print(months.values())
+print(len(months))
