@@ -55,11 +55,31 @@
 
 
 # Multiple Assignments
-x = y = 34
-z = 41
-math101 = eng101 =  54.9
-chem101 = 61.9
+# x = y = 34
+# z = 41
+# math101 = eng101 =  54.9
+# chem101 = 61.9
 
-name, score, age = "ChisoftMedia", ((float(math101)+float(eng101)+float(chem101))/3), ((int(x)+int(y)+int(z))/3)
+# name, score, age = "ChisoftMedia", ((float(math101)+float(eng101)+float(chem101))/3), ((int(x)+int(y)+int(z))/3)
 
-print(name + "is Aged = " + str(age) + " and scored = " + str(score))
+# print(name + "is Aged = " + str(age) + " and scored = " + str(score))
+
+# Python Strings
+word = "ChisoftMedia StartUp"
+print(word)
+print(word[0])
+print(word[3:6])
+print(word[3:])
+print(word + " Scotland")
+print(word * 3)
+
+del word # delete reference to a number variable
+
+
+word = "Python Programming"
+print(word)              # Prints out the entire string
+print(word[0])           # Prints the first character in the string
+print(word[3:6])         # Print the 4th to the 7th character
+print(word[3:] )          # Prints the 4th to the last character
+print(word + " Tutorial") # Attaches Tutorial to the end of the string
+print(word * 3)          # Prints the string 3 times
