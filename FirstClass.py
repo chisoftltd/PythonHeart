@@ -65,21 +65,23 @@
 # print(name + "is Aged = " + str(age) + " and scored = " + str(score))
 
 # Python Strings
-word = "ChisoftMedia StartUp"
+word = "ChisoftMedia StartUp "
 print(word)
 print(word[0])
 print(word[3:6])
 print(word[3:])
 print(word + " Scotland")
 print(word * 3)
+print(word * 5)
 
 del word # delete reference to a number variable
 
 
-word = "Python Programming"
+word = "Python Programming "
 print(word)              # Prints out the entire string
 print(word[0])           # Prints the first character in the string
 print(word[3:6])         # Print the 4th to the 7th character
 print(word[3:] )          # Prints the 4th to the last character
 print(word + " Tutorial") # Attaches Tutorial to the end of the string
 print(word * 3)          # Prints the string 3 times
+print(word * 10)          # Prints the string 3 times
