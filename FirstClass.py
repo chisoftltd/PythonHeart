@@ -65,23 +65,39 @@
 # print(name + "is Aged = " + str(age) + " and scored = " + str(score))
 
 # Python Strings
-word = "ChisoftMedia StartUp "
-print(word)
-print(word[0])
-print(word[3:6])
-print(word[3:])
-print(word + " Scotland")
-print(word * 3)
-print(word * 5)
+# word = "ChisoftMedia StartUp "
+# print(word)
+# print(word[0])
+# print(word[3:6])
+# print(word[3:])
+# print(word + " Scotland")
+# print(word * 3)
+# print(word * 5)
 
-del word # delete reference to a number variable
+# del word # delete reference to a number variable
 
 
-word = "Python Programming "
-print(word)              # Prints out the entire string
-print(word[0])           # Prints the first character in the string
-print(word[3:6])         # Print the 4th to the 7th character
-print(word[3:] )          # Prints the 4th to the last character
-print(word + " Tutorial") # Attaches Tutorial to the end of the string
-print(word * 3)          # Prints the string 3 times
-print(word * 10)          # Prints the string 3 times
+# word = "Python Programming "
+# print(word)              # Prints out the entire string
+# print(word[0])           # Prints the first character in the string
+# print(word[3:6])         # Print the 4th to the 7th character
+# print(word[3:] )          # Prints the 4th to the last character
+# print(word + " Tutorial") # Attaches Tutorial to the end of the string
+# print(word * 3)          # Prints the string 3 times
+# print(word * 10)          # Prints the string 3 times
+
+# Python Lists
+
+list1 = ['wxyz', 0.85, 52, '100', 780.2]
+list2 = [980, 'ChisoftMedia']
+print(list1)
+print(list1[0])
+print(list1[1:4])
+print(list2[2:])
+print(list2 * 3)
+print(list1 + list2)
+print(list2)
+print(list2[0])
+print(list2[1:2])
+print(list1[2:])
+print(list1 * 2)
