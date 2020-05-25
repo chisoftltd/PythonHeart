@@ -88,16 +88,32 @@
 
 # Python Lists
 
-list1 = ['wxyz', 0.85, 52, '100', 780.2]
-list2 = [980, 'ChisoftMedia']
-print(list1)
-print(list1[0])
-print(list1[1:4])
-print(list2[2:])
-print(list2 * 3)
-print(list1 + list2)
-print(list2)
-print(list2[0])
-print(list2[1:2])
-print(list1[2:])
-print(list1 * 2)
+# list1 = ['wxyz', 0.85, 52, '100', 780.2]
+# list2 = [980, 'ChisoftMedia']
+# print(list1)
+# print(list1[0])
+# print(list1[1:4])
+# print(list2[2:])
+# print(list2 * 3)
+# print(list1 + list2)
+# print(list2)
+# print(list2[0])
+# print(list2[1:2])
+# print(list1[2:])
+# print(list1 * 2)
+
+# Python Tuples
+
+tuple1 = ('abcd', 0.58, 25, '001, 208.7')
+tuple2 = (1010, 'ChisoftMedia')
+print(tuple1)
+print(tuple2)
+print(tuple1[0])
+print(tuple2[0])
+print(tuple1[1:4])
+print(tuple2[1:3])
+print(tuple1[2:])
+print(tuple2[1:])
+print(tuple1 * 2)
+print(tuple2 * 3)
+print(tuple1 + tuple2)
